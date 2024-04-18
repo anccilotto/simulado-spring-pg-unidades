@@ -1,7 +1,9 @@
 package br.com.fiap.unidades.resource;
 
 import br.com.fiap.unidades.entity.Chefe;
-import br.com.fiap.unidades.service.ChefeService;
+import br.com.fiap.unidades.entity.Unidade;
+import br.com.fiap.unidades.entity.Usuario;
+import br.com.fiap.unidades.service.ChefeServices;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
